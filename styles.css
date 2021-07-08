@@ -182,6 +182,7 @@ footer{
     flex-flow: column wrap;
     align-content: center
 }
+
 .paragraph{
     
     width: 30rem;
@@ -322,7 +323,12 @@ footer{
         margin-left: 1rem;
         transition: 1s;
     }
-  
+    #articulo-1{
+        border-top-right-radius:1rem ;
+    }
+    #articulo-2{
+        border-bottom-left-radius: 1rem;
+    }
     .icon:hover{
         font-size: 1.2rem;
         transition: 0.5s;
@@ -340,14 +346,14 @@ footer{
     .articulo-1{
 
         width: 37rem;
-        height: 18rem;
+        height: 15rem;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
         background-image: url(BeFunky-collage2.png);
         background-color: rgba(0, 0, 0, 0.63);
         background-blend-mode: soft-light;
-        background-size: 32.7rem;
+        background-size: 26rem;
         background-repeat: no-repeat;
         padding: 1rem;
         border-top-left-radius: 1rem;
@@ -376,8 +382,8 @@ footer{
     }
     .articulo-1:hover{
         
-        height: 16rem;
-        background-size: 28rem;
+        height: 15rem;
+        background-size: 25rem;
         transition: 0.8s;
     }
     .paragraph{
