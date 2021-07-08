@@ -99,6 +99,7 @@ header{
 }
 .header{
     
+    border: 2px solid black;
     background-image: url(fondo.jpg);
     background-color: rgba(0, 0, 0, 0.39);
     background-blend-mode: soft-light;
